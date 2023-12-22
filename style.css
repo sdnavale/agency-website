@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&family=Poppins&family=Roboto&display=swap");
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+rel="stylesheet">
+
+*{
+
+}
+ body{
+    background-color: #faf9f6;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+ }
+ .img_deg{
+    float:left;
+    width: 20%;
+    padding-right: 2.5%;
+   }
+   .pos_cen{
+      position:relative;
+      width: 60%;
+      margin-top: 2%;
+   }
+
+   .img_deg1{
+    float:left;
+    width: 20%;
+    padding-right: 2.5%;
+   }
+   .pos_cen1{
+      position:absolute;
+      width: 60%;
+      margin-top: 2%;
+      padding-left: 50%;
+   }
+   .container{
+      display: flex;
+   }
+   .heading{
+     line-height: 1rem; 
+   }
+   #image1{
+      padding: 20px;
+   }
+   span{
+    color: rgb(154, 28, 233);
+   }
+.code{
+    float:right;
+    padding: 4%;
+}
